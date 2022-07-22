@@ -2,11 +2,13 @@ import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
+import ugo from '../assets/ugo.jpg';
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
+    <img src={ugo} alt='UGONNA'/>
       <div className="about">
         <h2> Hi everyone...<br/> my name is Sam Ugonna</h2>
         <div className="prompt">
